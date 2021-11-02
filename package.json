@@ -1,13 +1,11 @@
 {
+  "private": true,
   "name": "2021-swr",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
   },
-  "keywords": [],
   "author": "Yuji Sugiura",
   "license": "MIT",
   "devDependencies": {
