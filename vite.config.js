@@ -12,6 +12,7 @@ const buildInputs = readdirSync(__dirname)
 
 export default defineConfig({
   plugins: [react()],
+  base: "/2021-swr/",
   build: {
     outDir: "docs",
     rollupOptions: {
