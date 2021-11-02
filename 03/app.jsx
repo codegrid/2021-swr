@@ -7,14 +7,11 @@ const fetcher = (url) =>
   );
 
 const MaxItem = () => {
-  const { data, error } = useSWR("/maxitem.json", fetcher);
-
-  if (error) return <p>Error: {error.message}</p>;
-  if (!data) return <p>Loading...</p>;
+  const resp = useSWR("/maxitem.json", fetcher);
 
   return (
     <div>
-      <pre>{JSON.stringify(data, null, 2)}</pre>
+      <pre>{JSON.stringify(resp, null, 2)}</pre>
     </div>
   );
 };
