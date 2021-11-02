@@ -9,7 +9,7 @@ export const App = () => {
   return (
     <>
       <Header />
-      <SWRConfig value={{ refreshInterval: 5000000 }}>
+      <SWRConfig value={{ refreshInterval: 5000 }}>
         {loc === "/" ? <ListView /> : <DetailView id={loc} />}
       </SWRConfig>
     </>
