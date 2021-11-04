@@ -18,10 +18,13 @@ const NewsList = () => {
     <div>
       <button onClick={refresh}>MUTATE</button>
       <hr />
-      <ul></ul>
-      {data.slice(0, 10).map((id) => (
-        <li key={id}>{id}</li>
-      ))}
+      <ul>
+        {data.slice(0, 10).map((id) => (
+          <li key={id}>{id}</li>
+        ))}
+      </ul>
+      <hr />
+      <span>Last updated: {new Date().toLocaleTimeString()}</span>
     </div>
   );
 };
