@@ -15,7 +15,7 @@ export const DetailView = ({ id }) => {
     <div>
       <h2>{data.title}</h2>
       <div>
-        <span>✍️ {data.by}</span>
+        <span>📝 {data.by}</span>
         <span>🅿️ {data.score}</span>
         <span>💬 {data.descendants}</span>
         <span>🕛 {new Date(data.time * 1000).toLocaleString()}</span>

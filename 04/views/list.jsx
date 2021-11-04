@@ -25,7 +25,7 @@ export const ListView = () => {
           {topItemData.title}
         </h2>
         <div>
-          <span>✍️ {topItemData.by}</span>
+          <span>📝 {topItemData.by}</span>
           <span>🅿️ {topItemData.score}</span>
           <span>💬 {topItemData.descendants}</span>
           <span>
