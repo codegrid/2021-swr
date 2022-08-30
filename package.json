@@ -11,7 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
-    "vite": "^2.6.13"
+    "vite": "^2.9.13"
   },
   "dependencies": {
     "react": "^17.0.2",
